@@ -1,0 +1,13 @@
+[project]
+name = "mcp-cmd"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "langchain-core>=0.3.47",
+    "langchain-mcp-adapters>=0.0.3",
+    "langchain-openai>=0.3.9",
+    "langgraph>=0.3.18",
+    "mcp>=1.5.0",
+]
